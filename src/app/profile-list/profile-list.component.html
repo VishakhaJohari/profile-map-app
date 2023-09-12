@@ -1,0 +1,11 @@
+<!-- src/app/profile-list/profile-list.component.html -->
+<div class="profile-list">
+    <div *ngFor="let profile of profiles" class="profile-card">
+        <img [src]="profile.photoUrl" alt="Profile Photo" />
+        <div class="profile-info">
+            <h2>{{ profile.name }}</h2>
+            <p>{{ profile.description }}</p>
+            <button (click)="showProfileOnMap(profile)">View on Map</button>
+        </div>
+    </div>
+</div>

@@ -1,27 +1,19 @@
 # ProfileMapApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+A web application using the Angular framework that allows users to view a list of profiles and interactively explore the addresses of each profile on a map.
 
-## Development server
+## Pre-Requite:-
+1] Google maps api key with Maps javascript api & geocoder api enabled.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+2] Make sure you have replaced 'YOUR_API_KEY' in the index.html file at line 10.
 
-## Code scaffolding
+## How to run:-
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1] Download the repository.
 
-## Build
+2] Go into profile-map-app.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3] Run below command :- 
+```
+ng serve
+```
